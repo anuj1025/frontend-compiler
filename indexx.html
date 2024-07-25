@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>live code editor</title>
+    <link rel="stylesheet" href="new.css">
+    
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <label>html</label>
+      <textarea id="html-code" onkeyup="run()"  placeholder="Enter HTML code here"></textarea>
+    
+      <label>css</label>
+      <textarea id="css-code"onkeyup="run()" placeholder="Enter css code here"></textarea>
+           
+      <label>javascript</label>
+      <textarea id="javascript-code"onkeyup="run()" placeholder="Enter javascript code here"></textarea>
+           
+    </div>
+    <div class="poot">
+      <img src="C:\Users\Lenovo\Desktop\codding\qr-img.jpg" height="50px" width="40px">
+    </div>
+  
+    <div class="right">
+       <label>output</label>
+       <iframe id="output"></iframe>
+    </div>
+  </div>
+ 
+  <script src="new.js"></script>
+</body>
+</html>
+
